@@ -1,5 +1,10 @@
 {
-  "private": true,
+  "name": "jdhillen.com",
+  "version": "0.0.0",
+  "engines" : {
+    "npm": "8.5.0",
+    "node" : ">=16.14.0"
+  },
   "scripts": {
     "dev": "nuxi dev",
     "build": "nuxi build",

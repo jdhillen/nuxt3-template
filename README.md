@@ -1,21 +1,35 @@
-# Nuxt 3 Minimal Starter
+# Website - jdhillen.com
 
-We recommend to look at the [documentation](https://v3.nuxtjs.org).
+> Personal website built in Nuxt3, Vue3 and Vite
 
-## Setup
+---
 
-Make sure to install the dependencies
+## Requirements
+
+- [Node.js](https://nodejs.org/en/) - v16.14.0
+- [npm](https://www.npmjs.com/) - v8.5.0
+
+---
+
+## Installing
 
 ```bash
-yarn install
+# clone the repo
+git clone https://github.com/jdhillen/jdhillen.com.git
+
+# cd into the folder
+cd jdhillen.com
+
+# make sure to install dependencies
+npm install
 ```
 
 ## Development
 
-Start the development server on http://localhost:3000
+Start the development server on <http://localhost:3000>
 
 ```bash
-yarn dev
+npm run dev
 ```
 
 ## Production
@@ -23,7 +37,5 @@ yarn dev
 Build the application for production:
 
 ```bash
-yarn build
+npm run build
 ```
-
-Checkout the [deployment documentation](https://v3.nuxtjs.org/docs/deployment).
